@@ -18,11 +18,16 @@ class TableViewController: UITableViewController {
     
     var kataCount = [String:Int]()
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.edgesForExtendedLayout = []
-        self.tableView.contentInsetAdjustmentBehavior = .never
-        self.tableView.contentInset = UIEdgeInsets(top: 40, left: 0, bottom: 0, right: 0)
+       // self.edgesForExtendedLayout = []
+      //  self.tableView.contentInsetAdjustmentBehavior = .never
+        //self.tableView.contentInset = UIEdgeInsets(top: 40, left: 0, bottom: 0, right: 0)
+        //let headerView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: 40))
+        //headerView.backgroundColor = UIColor.red
+        //self.tableView.tableHeaderView = headerView
+
     }
 
     // MARK: - Table view data source
@@ -67,4 +72,11 @@ class TableViewController: UITableViewController {
     }
     */
 
+}
+
+class NavigationController: UINavigationController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.navigationBar.topItem?.title = "Iaido Tracker"
+    }
 }
