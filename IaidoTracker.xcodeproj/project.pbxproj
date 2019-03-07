@@ -8,22 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		3089F8E92230292F000C8D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F8E82230292F000C8D43 /* AppDelegate.swift */; };
-		3089F8EB2230292F000C8D43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F8EA2230292F000C8D43 /* ViewController.swift */; };
 		3089F8EE2230292F000C8D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3089F8EC2230292F000C8D43 /* Main.storyboard */; };
 		3089F8F12230292F000C8D43 /* IaidoTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3089F8EF2230292F000C8D43 /* IaidoTracker.xcdatamodeld */; };
 		3089F8F322302931000C8D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3089F8F222302931000C8D43 /* Assets.xcassets */; };
 		3089F8F622302931000C8D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3089F8F422302931000C8D43 /* LaunchScreen.storyboard */; };
+		3089F8FE2230298A000C8D43 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F8FD2230298A000C8D43 /* TableViewController.swift */; };
+		3089F900223033D6000C8D43 /* KataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F8FF223033D6000C8D43 /* KataTableViewCell.swift */; };
+		3089F90222303EC7000C8D43 /* Katas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F90122303EC7000C8D43 /* Katas.swift */; };
+		3089F90422306BF2000C8D43 /* TallyNumberFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F90322306BF2000C8D43 /* TallyNumberFormater.swift */; };
+		3089F90622306F38000C8D43 /* TallyMarks-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3089F90522306F38000C8D43 /* TallyMarks-Regular.otf */; };
+		3089F90822307108000C8D43 /* tally-marks.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3089F90722307108000C8D43 /* tally-marks.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3089F8E52230292F000C8D43 /* IaidoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IaidoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3089F8E82230292F000C8D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3089F8EA2230292F000C8D43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3089F8ED2230292F000C8D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3089F8F02230292F000C8D43 /* IaidoTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IaidoTracker.xcdatamodel; sourceTree = "<group>"; };
 		3089F8F222302931000C8D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3089F8F522302931000C8D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3089F8F722302931000C8D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3089F8FD2230298A000C8D43 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3089F8FF223033D6000C8D43 /* KataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataTableViewCell.swift; sourceTree = "<group>"; };
+		3089F90122303EC7000C8D43 /* Katas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Katas.swift; sourceTree = "<group>"; };
+		3089F90322306BF2000C8D43 /* TallyNumberFormater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyNumberFormater.swift; sourceTree = "<group>"; };
+		3089F90522306F38000C8D43 /* TallyMarks-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TallyMarks-Regular.otf"; path = "../../../Downloads/TallyMarks-Regular.otf"; sourceTree = "<group>"; };
+		3089F90722307108000C8D43 /* tally-marks.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "tally-marks.ttf"; path = "../../../Downloads/tally-marks.ttf"; sourceTree = "<group>"; };
+		30D349CD223136C40037F656 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				3089F8E82230292F000C8D43 /* AppDelegate.swift */,
-				3089F8EA2230292F000C8D43 /* ViewController.swift */,
+				3089F90322306BF2000C8D43 /* TallyNumberFormater.swift */,
+				3089F90122303EC7000C8D43 /* Katas.swift */,
+				3089F8FD2230298A000C8D43 /* TableViewController.swift */,
+				3089F8FF223033D6000C8D43 /* KataTableViewCell.swift */,
 				3089F8EC2230292F000C8D43 /* Main.storyboard */,
 				3089F8F222302931000C8D43 /* Assets.xcassets */,
 				3089F8F422302931000C8D43 /* LaunchScreen.storyboard */,
+				3089F90522306F38000C8D43 /* TallyMarks-Regular.otf */,
+				3089F90722307108000C8D43 /* tally-marks.ttf */,
 				3089F8F722302931000C8D43 /* Info.plist */,
 				3089F8EF2230292F000C8D43 /* IaidoTracker.xcdatamodeld */,
 			);
@@ -99,6 +115,7 @@
 				TargetAttributes = {
 					3089F8E42230292F000C8D43 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -125,8 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3089F90622306F38000C8D43 /* TallyMarks-Regular.otf in Resources */,
 				3089F8F622302931000C8D43 /* LaunchScreen.storyboard in Resources */,
 				3089F8F322302931000C8D43 /* Assets.xcassets in Resources */,
+				3089F90822307108000C8D43 /* tally-marks.ttf in Resources */,
 				3089F8EE2230292F000C8D43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3089F8F12230292F000C8D43 /* IaidoTracker.xcdatamodeld in Sources */,
-				3089F8EB2230292F000C8D43 /* ViewController.swift in Sources */,
+				3089F8FE2230298A000C8D43 /* TableViewController.swift in Sources */,
+				3089F900223033D6000C8D43 /* KataTableViewCell.swift in Sources */,
+				3089F90422306BF2000C8D43 /* TallyNumberFormater.swift in Sources */,
 				3089F8E92230292F000C8D43 /* AppDelegate.swift in Sources */,
+				3089F90222303EC7000C8D43 /* Katas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +173,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3089F8ED2230292F000C8D43 /* Base */,
+				30D349CD223136C40037F656 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -295,7 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.codingmonkeys.map.IaidoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -313,7 +336,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.codingmonkeys.map.IaidoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
