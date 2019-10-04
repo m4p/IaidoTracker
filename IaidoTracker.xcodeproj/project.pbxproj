@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		303C2A9F2347562400AAD21F /* tally-marks.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 303C2A9D2347562400AAD21F /* tally-marks.ttf */; };
 		303C2AA02347562400AAD21F /* TallyMarks-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 303C2A9E2347562400AAD21F /* TallyMarks-Regular.otf */; };
+		303C2AED23476B2600AAD21F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303C2AEC23476B2600AAD21F /* Preview Assets.xcassets */; };
+		303C2AF023476B6300AAD21F /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C2AEE23476B6200AAD21F /* HostingController.swift */; };
+		303C2AF123476B6300AAD21F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C2AEF23476B6300AAD21F /* ContentView.swift */; };
 		3089F8E92230292F000C8D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089F8E82230292F000C8D43 /* AppDelegate.swift */; };
 		3089F8EE2230292F000C8D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3089F8EC2230292F000C8D43 /* Main.storyboard */; };
 		3089F8F12230292F000C8D43 /* IaidoTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3089F8EF2230292F000C8D43 /* IaidoTracker.xcdatamodeld */; };
@@ -21,7 +24,6 @@
 		30D349EF223684990037F656 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D349ED223684990037F656 /* Interface.storyboard */; };
 		30D349F12236849B0037F656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D349F02236849B0037F656 /* Assets.xcassets */; };
 		30D349F82236849B0037F656 /* IaidoTrackerWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 30D349F72236849B0037F656 /* IaidoTrackerWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		30D349FD2236849B0037F656 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D349FC2236849B0037F656 /* InterfaceController.swift */; };
 		30D349FF2236849B0037F656 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D349FE2236849B0037F656 /* ExtensionDelegate.swift */; };
 		30D34A012236849B0037F656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D34A002236849B0037F656 /* Assets.xcassets */; };
 		30D34A052236849B0037F656 /* IaidoTrackerWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 30D349EB223684990037F656 /* IaidoTrackerWatch.app */; };
@@ -72,6 +74,9 @@
 /* Begin PBXFileReference section */
 		303C2A9D2347562400AAD21F /* tally-marks.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tally-marks.ttf"; sourceTree = "<group>"; };
 		303C2A9E2347562400AAD21F /* TallyMarks-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TallyMarks-Regular.otf"; sourceTree = "<group>"; };
+		303C2AEC23476B2600AAD21F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		303C2AEE23476B6200AAD21F /* HostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		303C2AEF23476B6300AAD21F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3089F8E52230292F000C8D43 /* IaidoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IaidoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3089F8E82230292F000C8D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3089F8ED2230292F000C8D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,7 +94,6 @@
 		30D349F02236849B0037F656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D349F22236849B0037F656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30D349F72236849B0037F656 /* IaidoTrackerWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IaidoTrackerWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30D349FC2236849B0037F656 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		30D349FE2236849B0037F656 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		30D34A002236849B0037F656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D34A022236849B0037F656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,6 +117,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		303C2AEB23476B2600AAD21F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				303C2AEC23476B2600AAD21F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		3089F8DC2230292F000C8D43 = {
 			isa = PBXGroup;
 			children = (
@@ -165,10 +177,12 @@
 		30D349FB2236849B0037F656 /* IaidoTrackerWatch Extension */ = {
 			isa = PBXGroup;
 			children = (
-				30D349FC2236849B0037F656 /* InterfaceController.swift */,
+				303C2AEF23476B6300AAD21F /* ContentView.swift */,
+				303C2AEE23476B6200AAD21F /* HostingController.swift */,
 				30D349FE2236849B0037F656 /* ExtensionDelegate.swift */,
 				30D34A002236849B0037F656 /* Assets.xcassets */,
 				30D34A022236849B0037F656 /* Info.plist */,
+				303C2AEB23476B2600AAD21F /* Preview Content */,
 			);
 			path = "IaidoTrackerWatch Extension";
 			sourceTree = "<group>";
@@ -297,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303C2AED23476B2600AAD21F /* Preview Assets.xcassets in Resources */,
 				30D34A012236849B0037F656 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,8 +336,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303C2AF023476B6300AAD21F /* HostingController.swift in Sources */,
 				30D349FF2236849B0037F656 /* ExtensionDelegate.swift in Sources */,
-				30D349FD2236849B0037F656 /* InterfaceController.swift in Sources */,
+				303C2AF123476B6300AAD21F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,7 +553,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -556,7 +572,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
@@ -578,7 +594,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -600,7 +616,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};

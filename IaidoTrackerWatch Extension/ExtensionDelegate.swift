@@ -1,8 +1,8 @@
 //
 //  ExtensionDelegate.swift
-//  IaidoTrackerWatch Extension
+//  test WatchKit Extension
 //
-//  Created by Martin Pittenauer on 3/11/19.
+//  Created by Martin Pittenauer on 10/4/19.
 //  Copyright © 2019 Martin Pittenauer. All rights reserved.
 //
 
